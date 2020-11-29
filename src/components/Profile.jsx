@@ -1,3 +1,4 @@
+import './Profile.css';
 const Profile = () => {
     return (
         < div className='content' >
@@ -10,13 +11,13 @@ const Profile = () => {
         <div>
                     News posts
         </div>
-                <div>
+        <div className ='item'>
                     post1
         </div>
-                <div>
+        <div className ='item'>
                     post2
         </div>
-            </div>
+     </div>
         </div >);
 }
 export default Profile;
