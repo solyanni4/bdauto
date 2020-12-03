@@ -2,3 +2,7 @@
     grid-area: c;
     background-color: rgb(169, 230, 169);
   }
+
+  .item {
+    color: rgb(238, 64, 11);
+  }
